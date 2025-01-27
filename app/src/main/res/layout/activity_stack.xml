@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StackActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/stack"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_marginTop="32dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="60dp"
+            android:paddingHorizontal="20dp"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/this_is_a_stack_activity_overlap"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/close_stack"
+            android:textAllCaps="false"
+            android:background="@drawable/button"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_marginBottom="40dp"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

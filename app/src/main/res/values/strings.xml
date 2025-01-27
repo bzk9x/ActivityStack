@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Activity Stack</string>
+    <string name="view_stack">View Stack</string>
+    <string name="welcome_to_activity_stack">Welcome to Activity Stack</string>
+    <string name="this_is_a_stack_activity_overlap">This is a Stack Activity Overlap</string>
+    <string name="close_stack">Close Stack</string>
+</resources>
